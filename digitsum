@@ -1,0 +1,13 @@
+num = int(input("Enter the number: "))
+
+hund = int(num/100)
+print(hund)
+
+ten = int((num-(hund*100))/10)
+print(ten)
+
+one = int(num-(hund*100)-(ten*10))
+print(one)
+
+digitsum = hund + ten + one
+print(digitsum)
